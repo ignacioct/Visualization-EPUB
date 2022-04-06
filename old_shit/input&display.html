@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function createTextArea() {
+              var x = document.createElement("TEXTAREA");
+              var t = document.createTextNode("The button is working and triggering this text.");
+              x.appendChild(t);
+              document.body.appendChild(x);
+            }
+        </script>
+
+        <script type="text/javascript">
+            function checkbox() {
+                var checkBox = document.getElementById("myCheck");
+                var text = document.getElementById("text");
+                if (checkBox.checked == true){
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
+            }
+        </script>
+
+        <script type="text/javascript">
+            function display_image(src, width, height, alt) {
+                var a = document.createElement("img");
+                a.src = src;
+                a.width = width;
+                a.height = height;
+                a.alt = alt;
+                document.body.appendChild(a);
+            }
+            
+        </script>
+    </head>
+    
+    <body>
+        <p>The following JS code creates a text area from a pressed button.</p>
+        <button onclick="createTextArea()">Create Text Area</button>
+        
+        <p>The following JS code checks if the checbox has been checked</p>
+        <input type="checkbox" id="myCheck" onclick="checkbox()">
+        <p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+        <p id="select_control">The following HTML codes shows a select control</p>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        </select>
+        
+        <p>The following JS code shows an image after a JS code is executed</p>
+        <script>display_image('assets/10things.jpeg', 
+            276, 
+            110, 
+            'JavaScriptImage');</script>
+    </body>
+</html>

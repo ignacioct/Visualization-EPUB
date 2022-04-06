@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="rendition: http://www.idpf.org/vocab/rendition/# cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">Thomas Cole - The Voyage of Life</dc:title>
+    <dc:description>Mixed reflowable/fixed with an expermental textual overlay (click or tap on paintings to activate)</dc:description>
+    <dc:creator>Jesse Dylan</dc:creator>
+    <dc:identifier id="uid">code.google.com.epub-samples.cole-voyage-of-life-tol</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2012-04-02T12:47:00Z</meta>
+    <dc:rights>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</dc:rights>               
+    <link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <link rel="cc:attributionURL" href="http://en.wikipedia.org/wiki/The_Voyage_of_Life"/>  
+  </metadata>
+  <manifest>
+    <item id="p1" href="xhtml/1-childhood.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="css" href="css/cole.css" media-type="text/css"/>
+    <item id="bars" href="script/bar_chart.js" media-type="text/javascript"/>
+  </manifest>
+  <spine>
+    <itemref idref="p1"/>      
+  </spine>
+</package>

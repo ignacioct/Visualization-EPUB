@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      alert(
+        "Name: " +
+          navigator.epubReadingSystem.name +
+          "\nVersion: " +
+          navigator.epubReadingSystem.version +
+          "\nLayoutStile: " +
+          navigator.epubReadingSystem.layoutStyle +
+          "\nDetecting Features\nDOM manipulation: " +
+          navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+          "\nLayout Changes: " +
+          navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+          "\nTouch Events: " +
+          navigator.epubReadingSystem.hasFeature("touch-events") +
+          "\nMouse Events: " +
+          navigator.epubReadingSystem.hasFeature("mouse-events") +
+          "\nKeyboard Events: " +
+          navigator.epubReadingSystem.hasFeature("keyboard-events") +
+          "\nSpine Scripting: " +
+          navigator.epubReadingSystem.hasFeature("spine-scripting")
+      );
+    </script>
+  </head>
+
+  <body>
+    <p id="demo">Hola</p>
+  </body>
+</html>

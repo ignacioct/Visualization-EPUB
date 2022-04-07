@@ -19,13 +19,16 @@
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="page_css" href="page_styles.css" media-type="text/css"/>
     <item id="css" href="stylesheet.css" media-type="text/css"/>
-    <item id="css" href="css/cole.css" media-type="text/css"/>
+    <item id="css_cole" href="css/cole.css" media-type="text/css"/>
     <item id="bars" href="script/bar_chart.js" media-type="text/javascript"/>
     <item id="bars_canvas" href="script/bar_chart_canvas.js" media-type="text/javascript"/>
     <item id="line" href="script/line_chart.js" media-type="text/javascript"/>
     <item id="box" href="script/boxplot.js" media-type="text/javascript"/>
     <item id="pie" href="script/pie_chart.js" media-type="text/javascript"/>
     <item id="dendogram" href="script/dendogram.js" media-type="text/javascript"/>
+    <item id="wordcloud" href="script/wordcloud.js" media-type="text/javascript"/>
+    <item id="d3" href="script/d3/d3.js" media-type="text/javascript"/>
+    <item id="wordcloud-d3" href="script/d3/wordcloud-d3.js" media-type="text/javascript"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

@@ -26,6 +26,8 @@
     <item id="box" href="script/boxplot.js" media-type="text/javascript"/>
     <item id="pie" href="script/pie_chart.js" media-type="text/javascript"/>
     <item id="dendogram" href="script/dendogram.js" media-type="text/javascript"/>
+    <item id="ridgeline" href="script/ridgeline.js" media-type="text/javascript"/>
+    <item id="d3" href="script/d3/d3.js" media-type="text/javascript"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

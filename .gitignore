@@ -139,4 +139,4 @@ Typescript/*
 Webpack/*
 
 # Remove EPUBs
-.epub
+*.epub

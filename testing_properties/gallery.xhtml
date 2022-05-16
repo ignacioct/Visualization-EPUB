@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      .bar {
+        fill: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <h1 id="id01">Old Heading</h1>
+
+    <script type="text/javascript">
+      // Display the result in the element with id="demo"
+      // document.getElementById("demo").innerHTML =
+      //   "Name: " +
+      //   navigator.epubReadingSystem.name +
+      //   "\nVersion: " +
+      //   navigator.epubReadingSystem.version +
+      //   "\nLayoutStile: " +
+      //   navigator.epubReadingSystem.layoutStyle +
+      //   "\nDetecting Features\nDOM manipulation: " +
+      //   navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+      //   "\nLayout Changes: " +
+      //   navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+      //   "\nTouch Events: " +
+      //   navigator.epubReadingSystem.hasFeature("touch-events") +
+      //   "\nMouse Events: " +
+      //   navigator.epubReadingSystem.hasFeature("mouse-events") +
+      //   "\nKeyboard Events: " +
+      //   navigator.epubReadingSystem.hasFeature("keyboard-events") +
+      //   "\nSpine Scripting: " +
+      //   navigator.epubReadingSystem.hasFeature("spine-scripting");
+      console.log(
+        "Name: " +
+          navigator.epubReadingSystem.name +
+          "\nVersion: " +
+          navigator.epubReadingSystem.version +
+          "\nLayoutStile: " +
+          navigator.epubReadingSystem.layoutStyle +
+          "\nDetecting Features\nDOM manipulation: " +
+          navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+          "\nLayout Changes: " +
+          navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+          "\nTouch Events: " +
+          navigator.epubReadingSystem.hasFeature("touch-events") +
+          "\nMouse Events: " +
+          navigator.epubReadingSystem.hasFeature("mouse-events") +
+          "\nKeyboard Events: " +
+          navigator.epubReadingSystem.hasFeature("keyboard-events") +
+          "\nSpine Scripting: " +
+          navigator.epubReadingSystem.hasFeature("spine-scripting")
+      );
+      const element = document.getElementById("id01");
+      element.innerHTML =
+        "Name: " +
+        navigator.epubReadingSystem.name +
+        "\nVersion: " +
+        navigator.epubReadingSystem.version +
+        "\nLayoutStile: " +
+        navigator.epubReadingSystem.layoutStyle +
+        "\nDetecting Features\nDOM manipulation: " +
+        navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+        "\nLayout Changes: " +
+        navigator.epubReadingSystem.hasFeature("dom-manipulation") +
+        "\nTouch Events: " +
+        navigator.epubReadingSystem.hasFeature("touch-events") +
+        "\nMouse Events: " +
+        navigator.epubReadingSystem.hasFeature("mouse-events") +
+        "\nKeyboard Events: " +
+        navigator.epubReadingSystem.hasFeature("keyboard-events") +
+        "\nSpine Scripting: " +
+        navigator.epubReadingSystem.hasFeature("spine-scripting");
+    </script>
+  </body>
+</html>

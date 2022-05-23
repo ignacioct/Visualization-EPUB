@@ -1,5 +1,3 @@
-/* one question is whether changing the value of @class 
-        qualifies as "structural changes" ("dom-manipulation") */
 var dataset1 = [33, 57, 84, 21, 60];
 
 var svg = d3.select("svg"),

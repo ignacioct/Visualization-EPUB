@@ -30,6 +30,8 @@
     <item id="streamgraph" href="script/streamgraph.js" media-type="text/javascript"/>
     <item id="streamgraph-file" href="script/assets/file.js" media-type="text/javascript"/>
     <item id="d3" href="script/d3/d3.js" media-type="text/javascript"/>
+    <item id="scatterplot" href="script/scatterplot.js" media-type="text/javascript"/>
+    <item id="scatterplot_file" href="script/assets/scatterplot_file.js" media-type="text/javascript"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

@@ -32,6 +32,7 @@ g.append("g").call(
     .ticks(4)
 );
 
+
 g.selectAll(".bar")
   .data(dataset1)
   .enter()

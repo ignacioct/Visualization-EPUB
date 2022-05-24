@@ -33,6 +33,7 @@
     <item id="scatterplot" href="script/scatterplot.js" media-type="text/javascript"/>
     <item id="scatterplot_file" href="script/assets/scatterplot_file.js" media-type="text/javascript"/>
     <item id="network" href="script/network.js" media-type="text/javascript"/>
+    <item id="network" href="script/arc.js" media-type="text/javascript"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

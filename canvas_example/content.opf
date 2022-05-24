@@ -1,7 +1,7 @@
 <?xml version="1.0"  encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
   <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
-    <dc:title>Visualization Gallery for iBooks</dc:title>
+    <dc:title>Canvas Visualization</dc:title>
     <dc:creator opf:role="aut" opf:file-as="Unknown">Unknown</dc:creator>
     <dc:contributor opf:role="bkp">calibre (5.35.0) [https://calibre-ebook.com]</dc:contributor>
     <dc:identifier id="uuid_id" opf:scheme="uuid">ec3f300c-4498-427d-97e6-2003bf0cab62</dc:identifier>
@@ -20,22 +20,8 @@
     <item id="page_css" href="page_styles.css" media-type="text/css"/>
     <item id="css" href="stylesheet.css" media-type="text/css"/>
     <item id="css" href="css/cole.css" media-type="text/css"/>
-    <item id="bars" href="script/bar_chart.js" media-type="text/javascript"/>
-    <item id="bars_canvas" href="script/bar_chart_canvas.js" media-type="text/javascript"/>
-    <item id="line" href="script/line_chart.js" media-type="text/javascript"/>
-    <item id="box" href="script/boxplot.js" media-type="text/javascript"/>
-    <item id="pie" href="script/pie_chart.js" media-type="text/javascript"/>
-    <item id="dendogram" href="script/dendogram.js" media-type="text/javascript"/>
-    <item id="ridgeline" href="script/ridgeline.js" media-type="text/javascript"/>
-    <item id="streamgraph" href="script/streamgraph.js" media-type="text/javascript"/>
-    <item id="streamgraph-file" href="script/assets/streamgraph_file.js" media-type="text/javascript"/>
+    <item id="canvas" href="script/canvas_example.js" media-type="text/javascript"/>
     <item id="d3" href="script/d3/d3.js" media-type="text/javascript"/>
-    <item id="scatterplot" href="script/scatterplot.js" media-type="text/javascript"/>
-    <item id="scatterplot_file" href="script/assets/scatterplot_file.js" media-type="text/javascript"/>
-    <item id="network" href="script/network.js" media-type="text/javascript"/>
-    <item id="network" href="script/arc.js" media-type="text/javascript"/>
-    <item id="treemap" href="script/treemap.js" media-type="text/javascript"/>
-    <item id="treemap_file" href="script/assets/treemap_file.js" media-type="text/javascript"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="titlepage"/>

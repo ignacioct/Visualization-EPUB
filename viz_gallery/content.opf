@@ -21,7 +21,6 @@
     <item id="css" href="stylesheet.css" media-type="text/css"/>
     <item id="css" href="css/cole.css" media-type="text/css"/>
     <item id="bars" href="script/bar_chart.js" media-type="text/javascript"/>
-    <item id="bars_canvas" href="script/bar_chart_canvas.js" media-type="text/javascript"/>
     <item id="line" href="script/line_chart.js" media-type="text/javascript"/>
     <item id="box" href="script/boxplot.js" media-type="text/javascript"/>
     <item id="pie" href="script/pie_chart.js" media-type="text/javascript"/>

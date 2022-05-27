@@ -1,3 +1,5 @@
+// Treemap graph based on https://d3-graph-gallery.com/graph/treemap_basic.html
+
 function csvToArray(str, delimiter = ",") {
   // slice from start of text to the first \n index
   // use split to create an array from string by delimiter

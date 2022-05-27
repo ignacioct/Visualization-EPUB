@@ -1,3 +1,5 @@
+// Bar chart based on https://d3-graph-gallery.com/graph/barplot_basic.html
+
 /* one question is whether changing the value of @class 
         qualifies as "structural changes" ("dom-manipulation") */
 var dataset1 = [33, 57, 84, 21, 60];

@@ -1,3 +1,5 @@
+// Pie chart based on https://d3-graph-gallery.com/arc.html
+
 // set the dimensions and margins of the graph
 var width = 450;
 height = 450;

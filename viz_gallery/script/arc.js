@@ -1,3 +1,5 @@
+// Arc diagram based on https://d3-graph-gallery.com/arc.html
+
 // set the dimensions and margins of the graph
 var margin = { top: 20, right: 30, bottom: 20, left: 30 },
   width = 450 - margin.left - margin.right,

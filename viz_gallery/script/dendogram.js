@@ -1,3 +1,5 @@
+// Dendogram based on https://d3-graph-gallery.com/graph/dendrogram_basic.html
+
 // set the dimensions and margins of the graph
 var width = 460;
 var height = 460;

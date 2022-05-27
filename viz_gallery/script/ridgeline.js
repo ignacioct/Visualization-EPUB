@@ -1,3 +1,5 @@
+// Ridgeline chart based on https://d3-graph-gallery.com/ridgeline.html
+
 // set the dimensions and margins of the graph
 var margin = { top: 60, right: 30, bottom: 20, left: 110 },
   width = 460 - margin.left - margin.right,
